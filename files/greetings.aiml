@@ -1,4 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hello! Welcome to your career advisor chatbot. How can I assist you today? 
+            You can ask about computing jobs, resume tips, or interview advice.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            Hi there! I’m here to help with career advice. What would you like to know?
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEY</pattern>
+        <template>
+            Hey! It’s great to see you. Let’s talk about your career goals. What’s on your mind?
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOOD MORNING</pattern>
+        <template>
+            Good morning! I hope your day is off to a great start. How can I help you with your career today?
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOOD EVENING</pattern>
+        <template>
+            Good evening! What’s on your mind? I’m here to help you with career advice or guidance.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            I’m just a bot, but I’m ready to help you explore careers and plan your future! How can I assist you?
+        </template>
+    </category>
 </aiml>
