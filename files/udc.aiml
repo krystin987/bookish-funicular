@@ -2,6 +2,14 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>
+      <random>
+        <li>I'm not sure how to respond to that. Try asking about jobs or skills!</li>
+        <li>Hmm, I don't know that one. How about asking about career preparation tips?</li>
+        <li>I didn’t quite catch that. You can ask me about computing job roles or requirements.</li>
+        <li>I’m still learning! You can ask about job descriptions, required skills, or preparation steps for careers like Web Developer or Systems Administrator.</li>
+        <li>Hmm, I didn’t get that. Try asking about computing careers like Software Engineer, Data Scientist, or Cybersecurity Analyst.</li>
+      </random>
+    </template>
   </category>
 </aiml>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>I NEED HELP CHOOSING A CAREER</pattern>
+    <template>
+      Sure! Let's figure out your strengths and interests. Do you prefer working with <br/>
+      1. Coding and building software <br/>
+      2. Analyzing data <br/>
+      3. Securing networks and systems <br/>
+      4. Designing websites <br/>
+      5. Managing IT systems? <br/>
+      Please type the number of your preference.
+    </template>
+  </category>
+
+  <category>
+    <pattern>1</pattern>
+    <template>
+      Great choice! You may enjoy a career as a Software Engineer. Would you like to learn about the required skills or how to get started?
+    </template>
+  </category>
+
+  <category>
+    <pattern>2</pattern>
+    <template>
+      Analyzing data is an exciting field! You might be interested in becoming a Data Scientist. Would you like to learn more about this role?
+    </template>
+  </category>
+
+  <category>
+    <pattern>3</pattern>
+    <template>
+      Cybersecurity could be a great fit for you! Would you like to learn about Cybersecurity Analyst roles and the skills you'll need?
+    </template>
+  </category>
+
+  <category>
+    <pattern>4</pattern>
+    <template>
+      Web development is a creative and in-demand field. I can share more about becoming a Web Developer if you'd like!
+    </template>
+  </category>
+
+  <category>
+    <pattern>5</pattern>
+    <template>
+      IT systems are critical to every organization. You may be well-suited for a Systems Administrator role. Would you like to know more about it?
+    </template>
+  </category>
+</aiml>
